@@ -77,7 +77,6 @@ case $STATE in
                   exit 0
                   ;;
         *)        logger -t nginx-ha-keepalived "Unknown state: '$STATE'"
-                  echo "unknown state $STATE"
                   exit 1
                   ;;
 esac
